@@ -21,10 +21,12 @@ def capital_game():
     print(f'Thank you for playing! \nYour correct score: {correct_score} \nYour incorrect score: {incorrect_score} ')
 
 capital_game()
-# print("Would you like to play again?  Yes or No")
-# game = input()
+print("Would you like to play again?  Yes or No")
+game = input()
 
-# if game.lower() == "yes":
-#     print(f"Welcome to game of matching the State to the Capitals!!")
-# else:
-#     print("Ok, next time.  Hope to see you again soon!")
+if game.lower() == "yes":
+    capital_game()
+    print(f"Welcome to game of matching the State to the Capitals!!")
+else:
+    print("Ok, next time.  Hope to see you again soon!")
+    exit()
