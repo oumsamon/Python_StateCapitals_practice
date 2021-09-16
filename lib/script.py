@@ -16,8 +16,10 @@ def capital_game():
         player_answer = input(f'What is the Capital of {states[i]["name"]} ?')
         if player_answer.lower() == states[i]["capital"].lower():
             correct_score += 1
+            print(f"Correct! You have {correct_score} out of 50 so far!")
         else:
             incorrect_score += 1
+            print(f'Incorrect! {incorrect_score} state down.  Better luck next time!')
     print(f'Thank you for playing! \nYour correct score: {correct_score} \nYour incorrect score: {incorrect_score} ')
 
 capital_game()

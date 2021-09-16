@@ -148,8 +148,7 @@ states = [
 }, {
     "name": "Wisconsin",
     "capital": "Madison"
-}, 
-{
+}, {
     "name": "Wyoming",
     "capital": "Cheyenne"
 }]
