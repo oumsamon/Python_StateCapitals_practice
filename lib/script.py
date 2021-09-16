@@ -1,6 +1,6 @@
 from capitals import states
 
-print(states)
+# print(states)
 
 def welcome_msg():
     print("Welcome to match the State to the capitals game! \nType in the capital of the state that is being displays. \nThe result will be at the end of the game ")
